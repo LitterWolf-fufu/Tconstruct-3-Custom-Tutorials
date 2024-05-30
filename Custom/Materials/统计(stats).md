@@ -2,11 +2,11 @@
 
 > 材料部件定义**文件位置`data/ModID/tinkering/materials/stats/ID.json`**
 
-```json5
+```json
 {
-    "stats": {
-        // 所有部件对象嵌套在"stats"对象内
-    }
+  "stats": {
+    // 所有部件对象嵌套在"stats"对象内
+  }
 }
 ```
 
@@ -51,12 +51,13 @@
 
 `"tconstruct:head"` 对象名，下为其包含的键值对集合
 
-```json5
-{   // 参考：{}tconstruct:wood.json > {}stats > {}tconstruct:head
-    "durability": 60,                // 耐久值
-    "mining_tier": "minecraft:wood", // 挖掘等级
-    "mining_speed": 2.0,             // 挖掘速度
-    "melee_attack": 0.0,             // 近战伤害
+```json
+{
+  // 参考：{}tconstruct:wood.json > {}stats > {}tconstruct:head
+  "durability": 60, // 耐久值
+  "mining_tier": "minecraft:wood", // 挖掘等级
+  "mining_speed": 2.0, // 挖掘速度
+  "melee_attack": 0.0 // 近战伤害
 }
 ```
 
@@ -70,12 +71,13 @@
 
 `"tconstruct:handle` 对象名，下为其包含的键值对集合
 
-```json5
-{   // 参考：{}tconstruct:rock.json > {}stats > {}tconstruct:handle
-    "durability": -0.1,  // 最终耐久修正值
-    "melee_damage": 0.0, // 最终攻击伤害修正值 
-    "melee_speed": 0.0,  // 最终攻击速度修正值
-    "mining_speed": 0.05 // 最终挖掘速度修正值
+```json
+{
+  // 参考：{}tconstruct:rock.json > {}stats > {}tconstruct:handle
+  "durability": -0.1, // 最终耐久修正值
+  "melee_damage": 0.0, // 最终攻击伤害修正值
+  "melee_speed": 0.0, // 最终攻击速度修正值
+  "mining_speed": 0.05 // 最终挖掘速度修正值
 }
 ```
 
@@ -89,7 +91,7 @@
 
 > ![](images/binding.png)
 
-*在1.19.2之前的版本中，该对象名为`"tconstruct:extra"`*
+_在 1.19.2 之前的版本中，该对象名为`"tconstruct:extra"`_
 
 ## 弓臂(Limb)
 
@@ -97,12 +99,13 @@
 
 `"tconstruct:limb` 对象名，下为其包含的键值对集合
 
-```json5
-{   // 参考：{}tconstruct:bone.json > {}stats > {}tconstruct:limb
-    "durability": 100,  // 耐久值
-    "draw_speed": 0.05, // 拉弓速度
-    "velocity": -0.05,  // 初速度 - 箭矢速度越高, 造成的伤害越高
-    "accuracy": 0.05    // 精确度 - 弓瞄准点距准心的距离
+```json
+{
+  // 参考：{}tconstruct:bone.json > {}stats > {}tconstruct:limb
+  "durability": 100, // 耐久值
+  "draw_speed": 0.05, // 拉弓速度
+  "velocity": -0.05, // 初速度 - 箭矢速度越高, 造成的伤害越高
+  "accuracy": 0.05 // 精确度 - 弓瞄准点距准心的距离
 }
 ```
 
@@ -114,11 +117,12 @@
 
 `"tconstruct:grip"` 对象名，下为其包含的键值对集合
 
-```json5
-{   // 参考：{}tconstruct:copper.json > {}stats > {}tconstruct:grip
-    "durability": -0.2, // 最终耐久度修正值
-    "accuracy": 0.0,    // 精确度 - 弓瞄准点距准心的距离
-    "melee_damage": 0.5 // 近战伤害
+```json
+{
+  // 参考：{}tconstruct:copper.json > {}stats > {}tconstruct:grip
+  "durability": -0.2, // 最终耐久度修正值
+  "accuracy": 0.0, // 精确度 - 弓瞄准点距准心的距离
+  "melee_damage": 0.5 // 近战伤害
 }
 ```
 
@@ -140,23 +144,25 @@
 
 对象名列表：
 
-* `"tconstruct:plating_helmet"` 头盔镶板部件
+- `"tconstruct:plating_helmet"` 头盔镶板部件
 
-* `"tconstruct:plating_chestplate"` 胸甲镶板部件
+- `"tconstruct:plating_chestplate"` 胸甲镶板部件
 
-* `"tconstruct:plating_leggings"` 护腿镶板部件
+- `"tconstruct:plating_leggings"` 护腿镶板部件
 
-* `"tconstruct:plating_boots"` 靴子镶板部件
+- `"tconstruct:plating_boots"` 靴子镶板部件
 
-* `"tconstruct:plating_shield"` 盾牌镶板部件
+- `"tconstruct:plating_shield"` 盾牌镶板部件
 
 它们包含相似的键值对集合
-```json5
-{   // 参考: {}manyullyn.json > {}stats > {}tconstruct:plating_chestplate
-    "durability": 560,            // 耐久度
-    "armor": 7.0,                 // 护甲值 - 盾牌一般不需要此键值对, 默认值 0
-    "toughness": 3.0,             // 盔甲韧性 - 默认值 0
-    "knockback_resistance": 0.05  // 击退抗性 - 默认值 0
+
+```json
+{
+  // 参考: {}manyullyn.json > {}stats > {}tconstruct:plating_chestplate
+  "durability": 560, // 耐久度
+  "armor": 7.0, // 护甲值 - 盾牌一般不需要此键值对, 默认值 0
+  "toughness": 3.0, // 盔甲韧性 - 默认值 0
+  "knockback_resistance": 0.05 // 击退抗性 - 默认值 0
 }
 ```
 
