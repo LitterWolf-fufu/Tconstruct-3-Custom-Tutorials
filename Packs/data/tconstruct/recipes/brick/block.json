@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:material",
+    "ingredient": {
+        "item": "minecraft:bricks"
+    },
+    "material": "tconstruct:brick",
+    "needed": 1,
+    "value": 4,
+    "leftover": {
+        "count": 1,
+        "item": "minecraft:brick"
+    }
+}
