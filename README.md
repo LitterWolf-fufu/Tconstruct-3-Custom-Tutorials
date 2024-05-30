@@ -17,3 +17,9 @@
 * 一个代码编辑器，VScode或者记事本之类的都可以
 * 那么 **一丢丢 🌌🤏** 的 JSON 基础
 * [JSON语法](https://www.runoob.com/json/json-syntax.html)
+## 导航页
+* > 一些数据包的JSON语法 [Gammers](/Gammers.md) (完善中...)
+
+* > 注册自定义材料 [Custom Material](/Custom/Materials.md) (支持1.19.2匠魂)
+
+* > 注册自定义匠魂配方 [Custom Recipes](/Custom/Recipes.md) (完善中...)
