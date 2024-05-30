@@ -1,18 +1,20 @@
 # stats-材料部件
 
+> 材料部件定义**文件位置`data/ModID/tinkering/materials/stats/ID.json`**
+
 ```json5
 {
     "stats": {
-        // 此处包含本篇下文所有的键值对
+        // 所有部件对象嵌套在"stats"对象内
     }
 }
 ```
 
-> 若不存在某一部件的键值对，则代表材料没有对应的某一部件
+> 若一个工具材料的"stats"不包含某一部件的对象，意为该工具材料无法合成此部件
 
 <details>
 
-<summary>部件列表(单击展开)</summary>
+<summary>部件对象列表(单击展开)</summary>
 
 <ul>
     <li><a href=#头部head>头部(Head)</a></li>
@@ -47,30 +49,33 @@
 
 > 头部部件包括： 镐头、锤头、小型斧刃、板斧刃、小型剑刃、宽刃、园板、大板
 
-`"tconstruct:head"` 键名，下方代码块为对应的值
+`"tconstruct:head"` 对象名，下为其包含的键值对集合
 
 ```json5
 {   // 参考：{}tconstruct:wood.json > {}stats > {}tconstruct:head
-    "durability": 60,                // int 耐久值
-    "mining_tier": "minecraft:wood", // string 挖掘等级
-    "mining_speed": 2.0,             // number 挖掘速度
-    "melee_attack": 0.0,             // number 近战伤害
+    "durability": 60,                // 耐久值
+    "mining_tier": "minecraft:wood", // 挖掘等级
+    "mining_speed": 2.0,             // 挖掘速度
+    "melee_attack": 0.0,             // 近战伤害
 }
 ```
+
+匠魂提供了六种挖掘等级: `minecraft`:`wood`/`stone`/`iron`/`diamond`/`netherite`
+
 > ![](images/head.png)
 
 ## 手柄(Handle)
 
 > 手柄部件包括：手柄、坚韧手柄
 
-`"tconstruct:handle` 键名，下方代码块为对应的值
+`"tconstruct:handle` 对象名，下为其包含的键值对集合
 
 ```json5
 {   // 参考：{}tconstruct:rock.json > {}stats > {}tconstruct:handle
-    "durability": -0.1,  // number 最终耐久修正值
-    "melee_damage": 0.0, // number 最终攻击伤害修正值 
-    "melee_speed": 0.0,  // number 最终攻击速度修正值
-    "mining_speed": 0.05 // number 最终挖掘速度修正值
+    "durability": -0.1,  // 最终耐久修正值
+    "melee_damage": 0.0, // 最终攻击伤害修正值 
+    "melee_speed": 0.0,  // 最终攻击速度修正值
+    "mining_speed": 0.05 // 最终挖掘速度修正值
 }
 ```
 
@@ -80,24 +85,24 @@
 
 > 绑定部件包括：绑定结
 
-`"tconstruct:binding"` 键名，对应的值为一个空复合标签`{}`
+`"tconstruct:binding"` 对象名，这是一个空集`{}`
 
 > ![](images/binding.png)
 
-*在1.19.2之前的版本中，该键名为`"tconstruct:extra"`*
+*在1.19.2之前的版本中，该对象名为`"tconstruct:extra"`*
 
 ## 弓臂(Limb)
 
 > 弓臂部件包括：弓臂
 
-`"tconstruct:limb` 键名，下方代码块为对应的值
+`"tconstruct:limb` 对象名，下为其包含的键值对集合
 
 ```json5
 {   // 参考：{}tconstruct:bone.json > {}stats > {}tconstruct:limb
-    "durability": 100,  // int 耐久值
-    "draw_speed": 0.05, // number 拉弓速度
-    "velocity": -0.05,  // number 初速度 - 箭矢速度越高, 造成的伤害越高
-    "accuracy": 0.05    // number 精确度 - 弓瞄准点距准心的距离
+    "durability": 100,  // 耐久值
+    "draw_speed": 0.05, // 拉弓速度
+    "velocity": -0.05,  // 初速度 - 箭矢速度越高, 造成的伤害越高
+    "accuracy": 0.05    // 精确度 - 弓瞄准点距准心的距离
 }
 ```
 
@@ -107,13 +112,13 @@
 
 > 弓把部件包括：弓把
 
-`"tconstruct:grip"` 键名，下方代码块为对应的值
+`"tconstruct:grip"` 对象名，下为其包含的键值对集合
 
 ```json5
 {   // 参考：{}tconstruct:copper.json > {}stats > {}tconstruct:grip
-    "durability": -0.2, // number 最终耐久度修正值
-    "accuracy": 0.0,    // number 精确度 - 弓瞄准点距准心的距离
-    "melee_damage": 0.5 // number 近战伤害
+    "durability": -0.2, // 最终耐久度修正值
+    "accuracy": 0.0,    // 精确度 - 弓瞄准点距准心的距离
+    "melee_damage": 0.5 // 近战伤害
 }
 ```
 
@@ -123,7 +128,7 @@
 
 > 弓弦部件包括：弓弦
 
-`"tconstruct:bowstring"` 键名，对应的值为一个空复合标签`{}`
+`"tconstruct:bowstring"` 对象名，这是一个空集`{}`
 
 > ![](images/bowstring.png)
 
@@ -133,7 +138,7 @@
 >
 > 镶板类型包括：头盔镶板部件、胸甲镶板部件、护腿镶板部件、靴子镶板部件、盾牌镶板部件
 
-键名列表：
+对象名列表：
 
 * `"tconstruct:plating_helmet"` 头盔镶板部件
 
@@ -145,13 +150,13 @@
 
 * `"tconstruct:plating_shield"` 盾牌镶板部件
 
-它们的对应的值为一个相同的复合标签
+它们包含相似的键值对集合
 ```json5
 {   // 参考: {}manyullyn.json > {}stats > {}tconstruct:plating_chestplate
-    "durability": 560,            // number 耐久度
-    "armor": 7.0,                 // number 护甲值 - 盾牌一般不需要此键值对, 默认值 0
-    "toughness": 3.0,             // number 盔甲韧性 - 默认值 0
-    "knockback_resistance": 0.05  // number 击退抗性 - 默认值 0
+    "durability": 560,            // 耐久度
+    "armor": 7.0,                 // 护甲值 - 盾牌一般不需要此键值对, 默认值 0
+    "toughness": 3.0,             // 盔甲韧性 - 默认值 0
+    "knockback_resistance": 0.05  // 击退抗性 - 默认值 0
 }
 ```
 

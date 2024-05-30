@@ -1,9 +1,11 @@
-# tratis-材料特性
+# traits-材料特性
+
+> 材料特性定义**文件路径`data/ModID/tinkering/materials/tratis/ID.json`**
 
 > 一个特性的复合标签类似于下面这样
 
 ```json5
-{
+{   
     "level": 1,                     // 特性的等级
     "name": "tconstruct:hydraulic"  // 特性的命名空间
 }
@@ -13,7 +15,7 @@
 
 > 该材料所有部件拥有的特性
 
-`"defualt"` 键名，对应的值为一个存储特性的复合标签的列表`[...]`
+`"defualt"` 键名，对应的值为一个存储Trait的复合标签的列表`[...]`
 
 ```json5
 {
