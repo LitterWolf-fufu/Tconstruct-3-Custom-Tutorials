@@ -2,7 +2,7 @@
 
 > 一些语法和有关语法的链接，方便理解
 
- ***
+---
 
 # 原料
 
@@ -12,8 +12,8 @@
 
 ### 键名
 
-* `item` ([item](https://zh.minecraft.wiki/w/Java%E7%89%88%E6%95%B0%E6%8D%AE%E5%80%BC#%E7%89%A9%E5%93%81)): 表示一种物品，不能与`tag`并存
-* `tag` ([tag](https://zh.minecraft.wiki/w/%E6%A0%87%E7%AD%BE#%E7%89%A9%E5%93%81%E6%A0%87%E7%AD%BE)): 表示一种标签物品，不能与`item`并存
+- `item` ([item](https://zh.minecraft.wiki/w/Java%E7%89%88%E6%95%B0%E6%8D%AE%E5%80%BC#%E7%89%A9%E5%93%81)): 表示一种物品，不能与`tag`并存
+- `tag` ([tag](https://zh.minecraft.wiki/w/%E6%A0%87%E7%AD%BE#%E7%89%A9%E5%93%81%E6%A0%87%E7%AD%BE)): 表示一种标签物品，不能与`item`并存
 
 ## FluidIngredient
 
@@ -21,13 +21,13 @@
 
 ### 键名
 
-* `name` (string): 液体命名空间，不能与`tag`并存
-* `tag` (string): 液体标签命名空间，不能与`name`并存
-* `amount` (integer): 液体量(mB)
+- `name` (string): 液体命名空间，不能与`tag`并存
+- `tag` (string): 液体标签命名空间，不能与`name`并存
+- `amount` (integer): 液体量(mB)
 
 ### 例
 
-114mB的熔融金(tconstruct:molten_gold):
+114mB 的熔融金(tconstruct:molten_gold):
 
 ```json
 "fluid": {
@@ -36,7 +36,7 @@
 }
 ```
 
-1000mB的水(minecraft:water)或500mB的蒸汽类型流体(forge:steam)
+1000mB 的水(minecraft:water)或 500mB 的蒸汽类型流体(forge:steam)
 
 ```json
 "fluid": [
@@ -57,10 +57,10 @@
 
 ### 键名
 
-* `item` (string): 物品命名空间，不能与`tag`并存
-* `tag` (string): 物品命标签名空间，不能与`item`并存
-* `count` (integer): 物品数量，默认为 1
-* `nbt` ([nbt](https://zh.minecraft.wiki/w/NBT)) 物品NBT
+- `item` (string): 物品命名空间，不能与`tag`并存
+- `tag` (string): 物品命标签名空间，不能与`item`并存
+- `count` (integer): 物品数量，默认为 1
+- `nbt` ([nbt](https://zh.minecraft.wiki/w/NBT)) 物品 NBT
 
 ### 例
 
@@ -71,6 +71,7 @@
 ```
 
 输出一个燧石(minecraft:flint)
+
 ```json
 "result": {
   "item": "minecraft:flint",
@@ -83,12 +84,12 @@
 
 ### 键名
 
-* `fluid` (string): 流体命名空间
-* `amount` (integer): 流体量(mB)
+- `fluid` (string): 流体命名空间
+- `amount` (integer): 流体量(mB)
 
 ### 例
 
-1000mB的融化玻璃流体(tconstruct:molten_glass)
+1000mB 的融化玻璃流体(tconstruct:molten_glass)
 
 ```json
 "result": {
@@ -97,9 +98,9 @@
   },
 ```
 
- ***
+---
 
-# 命名空间ID
+# 命名空间 ID
 
 ## MaterialID
 
