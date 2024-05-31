@@ -50,7 +50,7 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 
 # 创建材料定义-**definition**
 
-> 打开`客户端/data/.../definition/ID.json`参考[definition.md](./Materials/definition.md)创建一个工具材料定义文件
+> 打开`客户端/data/.../definition/ID.json`参考[definition.md](./Materials/定义(definition).md)创建一个工具材料定义文件
 
 [示例 >>>](../Packs/data/tconstruct/tinkering/materials/definition/clay.json)
 
@@ -63,7 +63,7 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 }
 ```
 
-# 创建材料部件-**stats**[(.md)](./Materials/stats.md)
+# 创建材料部件-**stats**[(.md)](./Materials/部件(stats).md)
 
 > 打开`客户端/data/.../stats/ID.json`参考
 
@@ -78,7 +78,7 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 }
 ```
 
-# 创建材料特性-**traits**[(.md)](./Materials/traits.md)
+# 创建材料特性-**traits**[(.md)](./Materials/特性(traits).md)
 
 > 打开`客户端/data/.../traits/ID.json`写入以下内容创建一个工具材料特性文件
 

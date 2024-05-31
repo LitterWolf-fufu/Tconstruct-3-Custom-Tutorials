@@ -28,6 +28,6 @@
 
 - > 一些数据包的 JSON 语法 [Gammers](/Gammers.md) (完善中...)
 
-- > 注册自定义材料 [Custom Material](/Custom/Materials.md) (支持 1.19.2 匠魂)
+- > 注册自定义材料 [Custom Material](/Custom/材料(Materials).md) (支持 1.19.2 匠魂)
 
-- > 注册自定义匠魂配方 [Custom Recipes](/Custom/Recipes.md) (完善中...)
+- > 注册自定义匠魂配方 [Custom Recipes](/Custom/配方(Recipes).md) (完善中...)
