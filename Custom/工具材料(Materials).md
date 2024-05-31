@@ -6,7 +6,7 @@
 
 > 什么是 对象 数组 键值对 ?
 
-参考: [JSON语法](https://www.runoob.com/json/json-syntax.html)
+参考: [JSON 语法](https://www.runoob.com/json/json-syntax.html)
 
 <details>
 
@@ -24,14 +24,14 @@
 
 # 开始之前
 
-Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘fufu**~，你也可以叫我**fufu**
+Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**fufu**
 
 > 本篇使用的范例材料为 `tconstruct:clay`
-> 
+>
 > <details>
-> 
+>
 > <summary>关联的文件(单击展开)</summary>
-> 
+>
 > <ol>
 >    <li><a href=../Packs/data/tconstruct/tinkering/materials/definition/clay.json> 定义(definition) </a></li>
 > </ol>
@@ -43,27 +43,27 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘fufu**~，你也可以叫我**fu
 确认你的`模组名称`和`材料名称`，下文将分别使用`ModID`和`ID`来代替！将注册一个名为`ModID:ID`的材料
 
 > 在 `客户端/data/ModID/tinkering/materials/`下的`definition/`&`stats/`&`traits/`中各新建一个`ID.json`文件
-> 
+>
 > 在 `客户端/assets/ModID/tinkering/materials/`中新建一个与上文`ID.json`文件
 
 确保这些新建的文件名为你所需的`材料名称`且**同名**之后，接着开始下一步
 
 # 创建材料定义-**definition**
 
-> 打开`客户端/data/.../definition/ID.json`参考[definition.md](./Materials/definition.md)创建一个工具材料定义文件
+> 打开`客户端/data/.../definition/ID.json`参考[definition.md](./Materials/定义(definition).md)创建一个工具材料定义文件
 
 [示例 >>>](../Packs/data/tconstruct/tinkering/materials/definition/clay.json)
 
 ```json
 {
-    "craftable": true,
-    "tier": 1,
-    "sortOrder": 9,
-    "hidden": false
+  "craftable": true,
+  "tier": 1,
+  "sortOrder": 9,
+  "hidden": false
 }
 ```
 
-# 创建材料部件-**stats**[(.md)](./Materials/stats.md)
+# 创建材料部件-**stats**[(.md)](./Materials/部件(stats).md)
 
 > 打开`客户端/data/.../stats/ID.json`参考
 
@@ -71,14 +71,14 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘fufu**~，你也可以叫我**fu
 
 ```json
 {
-    "stats": {
-        "tconstruct:binding": {},
-        "tconstruct:shield_core": {}
-    }
+  "stats": {
+    "tconstruct:binding": {},
+    "tconstruct:shield_core": {}
+  }
 }
 ```
 
-# 创建材料特性-**traits**[(.md)](./Materials/traits.md)
+# 创建材料特性-**traits**[(.md)](./Materials/特性(traits).md)
 
 > 打开`客户端/data/.../traits/ID.json`写入以下内容创建一个工具材料特性文件
 
@@ -86,12 +86,12 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘fufu**~，你也可以叫我**fu
 
 ```json
 {
-    "default": [
-        {
-            "level": 1,
-            "name": "tconstruct:hydraulic"
-        }
-    ]
+  "default": [
+    {
+      "level": 1,
+      "name": "tconstruct:hydraulic"
+    }
+  ]
 }
 ```
 
@@ -104,29 +104,29 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘fufu**~，你也可以叫我**fu
 > <details>
 >
 > <summary><a>本篇使用的范例材料"tconstruct:clay"展示(单击展开)</a></summary>
-> 
->> defintion/clay.json 定义的材料等级和目录位置
-> 
+>
+> > defintion/clay.json 定义的材料等级和目录位置
+>
 > ![](../assets/images/custom-materials-7-0.png)
 >
->> stats/clay.json 定义的部件与 traits/clay.json 定义的特性
+> > stats/clay.json 定义的部件与 traits/clay.json 定义的特性
 >
 > ![](../assets/images/custom-materials-7-1.png)
-> 
+>
 > ![](../assets/images/custom-materials-7-2.png)
-> 
+>
 > </details>
 
 但此时它的材质和名称都为最原始的状态
 
 > 此处黏土的材质和语言文件已经完善，原因是匠魂本身就有定义了黏土材料，只是未为其添加任何部件
-> 
+>
 > 如果是自定义的新材料，语言显示将是本地化键，材质显示将是灰度图
-> 
+>
 > <details>
 >
 > <summary><a>例(单击展开)</a></summary>
-> 
+>
 > ![](../assets/images/custom-materials-7-3.png)
 >
 > </details>

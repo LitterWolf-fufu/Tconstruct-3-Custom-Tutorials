@@ -104,7 +104,11 @@
 
 ## MaterialID
 
-在`data/ModID/tinkering/materials/`目录下的`definition/`&`stats/`&`traits/`目录中都存在正确被定义的`ID.json`文件，则该材料的命名空间为`"ModID":"ID"`
+在`data/ModID/tinkering/materials/`目录下的`definition/`&`stats/`&`traits/`目录中都存在正确被定义的`ID.json`文件，则该材料的命名空间为`ModID:ID`
+
+## TraitID
+
+在`data/ModID/tinkering/modifiers/`目录下存在正确被定义的`ID.json`文件，则该升级/特性的命名空间为`ModID:ID`
 
 # 功能交互
 
