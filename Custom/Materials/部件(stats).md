@@ -6,7 +6,7 @@
 
 `stats` (object): 下文所有键与键值对都在其中。若某个部件对象不在其中，则代表该材料的不存在这个部件
 
-> - `tconstruct:head` (object): 头部部件(Head)，包括镐头、锤头、小型斧刃、板斧刃、小型剑刃、宽刃、园板、大板:
+> - `tconstruct:head` (object): **头部**部件(Head)，包括镐头、锤头、小型斧刃、板斧刃、小型剑刃、宽刃、园板、大板:
 > 
 > > <details><img src="./images/head.png"></details>
 > >
@@ -15,7 +15,7 @@
 > > - `mining_speed` (number): 挖掘速度
 > > - `melee_attack` (number): 近战伤害
 > 
-> - `tconstruct:handle` (object): 手柄部件(Handle)，包括手柄、坚韧手柄:
+> - `tconstruct:handle` (object): **手柄**部件(Handle)，包括手柄、坚韧手柄:
 >
 > > <details><img src="./images/handle.png"></details>
 > >
@@ -24,13 +24,13 @@
 > > - `melee_speed` (number): 近战速度乘数
 > > - `mining_speed` (number): 挖掘速度乘数
 > 
-> - `tconstruct:binding` (object): 绑定结部件(Binding) _在1.18.2以下的版本中名为`tconstruct:extra`_:
+> - `tconstruct:binding` (object): **绑定结**部件(Binding) _在1.18.2以下的版本中名为`tconstruct:extra`_:
 > 
 > > <details><img src="./images/binding.png"></details>
 > >
 > > 此部件对象为空集
 > 
-> - `tconstruct:limb` (object): 弓臂部件(Limb)
+> - `tconstruct:limb` (object): **弓臂**部件(Limb)
 > 
 > > <details><img src="./images/limb.png"></details>
 > >
@@ -39,7 +39,7 @@
 > > - `velocity` (number): 初速度 - 箭矢速度越高, 造成的伤害越高
 > > - `accuracy` (number): 精确度 - 弓瞄准点距准心的距离
 >
-> - `tconstruct:grip` (object): 弓把部件
+> - `tconstruct:grip` (object): **弓把**部件
 > 
 > > <details><img src="./images/grip.png"></details>
 > >
@@ -53,7 +53,7 @@
 > >
 > > 此部件对象为空集
 >
-> - `tconstruct:plating_helmet` (object) 头盔镶板部件 _(1.19.2+)_
+> - `tconstruct:plating_helmet` (object) **头盔镶板**部件(plating_helmet) _(1.19.2+)_
 > 
 > > <details><img src="./images/plating.png"></details>
 > >
@@ -62,7 +62,7 @@
 > > - `toughness` (number): 盔甲韧性 - 默认为 0
 > > - `knockback_resistance` (number): 击退抗性 - 默认为 0
 > 
-> - `tconstruct:plating_chestplate` (object) 胸甲镶板部件 _(1.19.2+)_
+> - `tconstruct:plating_chestplate` (object) **胸甲镶板**部件(plating_chestplate) _(1.19.2+)_
 > 
 > > <details><img src="./images/plating.png"></details>
 > >
@@ -71,7 +71,7 @@
 > > - `toughness` (number): 盔甲韧性 - 默认为 0
 > > - `knockback_resistance` (number): 击退抗性 - 默认为 0
 > 
-> - `tconstruct:plating_leggings` (object) 护腿镶板部件 _(1.19.2+)_
+> - `tconstruct:plating_leggings` (object) **护腿镶板**部件(plating_leggings) _(1.19.2+)_
 > 
 > > <details><img src="./images/plating.png"></details>
 > >
@@ -80,7 +80,7 @@
 > > - `toughness` (number): 盔甲韧性 - 默认为 0
 > > - `knockback_resistance` (number): 击退抗性 - 默认为 0
 > 
-> - `tconstruct:plating_boots` (object) 靴子镶板部件 _(1.19.2+)_
+> - `tconstruct:plating_boots` (object) **靴子镶板**部件(plating_boots) _(1.19.2+)_
 > 
 > > <details><img src="./images/plating.png"></details>
 > >
@@ -89,7 +89,7 @@
 > > - `toughness` (number): 盔甲韧性 - 默认为 0
 > > - `knockback_resistance` (number): 击退抗性 - 默认为 0
 > 
-> - `tconstruct:plating_shield` (object) 盾牌镶板部件 _(1.19.2+)_
+> - `tconstruct:plating_shield` (object) **盾牌镶板**部件(plating_shield) _(1.19.2+)_
 > 
 > > <details><img src="./images/plating.png"></details>
 > >
@@ -97,13 +97,13 @@
 > > - `toughness` (number): 盔甲韧性 - 默认为 0
 > > - `knockback_resistance` (number): 击退抗性 - 默认为 0
 > 
-> - `tconstruct:maille` (object): 夹板部件 _(1.19.2+)_
+> - `tconstruct:maille` (object): **夹板**部件(maille) _(1.19.2+)_
 > 
 > > <details><img src="./images/maille.png"></details>
 > >
 > > 此部件对象为空集
 > 
-> - `tconstruct:shield_core` (object) 盾牌基底部件
+> - `tconstruct:shield_core` (object) **盾牌基底**部件(shield_core)
 > 
 > > <details><img src="./images/shield_core.png"></details>
 > >
