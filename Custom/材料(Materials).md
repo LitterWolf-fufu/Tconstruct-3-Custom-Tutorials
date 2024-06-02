@@ -93,13 +93,13 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 >
 > > defintion/clay.json 定义的材料等级和目录位置
 >
-> ![](../assets/images/custom-materials-7-0.png)
+> ![custom-materials-7-0.png](../assets/images/custom-materials-7-0.png)
 >
 > > stats/clay.json 定义的部件与 traits/clay.json 定义的特性
 >
-> ![](../assets/images/custom-materials-7-1.png)
+> ![custom-materials-7-1.png](../assets/images/custom-materials-7-1.png)
 >
-> ![](../assets/images/custom-materials-7-2.png)
+> ![custom-materials-7-2.png](../assets/images/custom-materials-7-2.png)
 >
 > </details>
 
@@ -113,7 +113,7 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 >
 > <summary><a>例(单击展开)</a></summary>
 >
-> ![](../assets/images/custom-materials-7-3.png)
+> ![custom-materials-7-3.png](../assets/images/custom-materials-7-3.png)
 >
 > </details>
 
