@@ -19,7 +19,14 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 > <summary>关联的文件(单击展开)</summary>
 >
 > <ol>
->    <li><a href=../Packs/data/tconstruct/tinkering/materials/definition/clay.json> 定义(definition) </a></li>
+>    <li><a href="../Packs/data/tconstruct/tinkering/materials/definition/clay.json"> 定义(definition) </a></li>
+>    <li><a href="../Packs/data/tconstruct/tinkering/materials/stats/clay.json"> 部件(stats) </a></li>
+>    <li><a href="../Packs/data/tconstruct/tinkering/materials/traits/clay.json"> 特性(traits) </a></li>
+>    <li><a href="../Packs/data/tconstruct/recipes/materials/clay_ball.json"> 配方-黏土球合成部件 </a></li>
+>    <li><a href="../Packs/data/tconstruct/recipes/materials/clay.json"> 配方-黏土块合成部件 </a></li>
+>    <li><a href="../Packs/data/tconstruct/recipes/materials/melting/melting.json"> 配方-黏土材料部件融化为融化黏土 </a></li>
+>    <li><a href="../Packs/assets/lang/lang/zh_cn.json"> 语言文件(lang) </a></li>
+>    <li><a href="../Packs/assets/tconstruct/tinkering/materials/clay.json"> 材质生成文件 </a></li>
 > </ol>
 >
 > </details>
