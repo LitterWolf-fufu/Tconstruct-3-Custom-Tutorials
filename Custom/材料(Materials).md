@@ -43,7 +43,7 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 
 # 创建材料定义-**definition**
 
-> 打开`客户端/data/.../definition/ID.json`参考[定义(definition).md](./Materials/定义(definition).md)创建一个材料定义文件
+> 打开`客户端/data/.../definition/ID.json`参考[定义(definition).md](<./Materials/定义(definition).md>)创建一个材料定义文件
 
 [示例 >>>](../Packs/data/tconstruct/tinkering/materials/definition/clay.json)
 
@@ -58,7 +58,7 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 
 # 创建材料部件-**stats**
 
-> 打开`客户端/data/.../stats/ID.json`参考[部件(stats).md](./Materials/部件(stats).md)，创建一个材料部件文件
+> 打开`客户端/data/.../stats/ID.json`参考[部件(stats).md](<./Materials/部件(stats).md>)，创建一个材料部件文件
 
 [示例 >>>](../Packs/data/tconstruct/tinkering/materials/stats/clay.json)
 
@@ -73,7 +73,7 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 
 # 创建材料特性-**traits**
 
-> 打开`客户端/data/.../traits/ID.json`参考[特性(traits).md](./Materials/特性(traits).md)，创建一个材料特性文件
+> 打开`客户端/data/.../traits/ID.json`参考[特性(traits).md](<./Materials/特性(traits).md>)，创建一个材料特性文件
 
 [示例 >>>](../Packs/data/tconstruct/tinkering/materials/traits/clay.json)
 
@@ -132,7 +132,7 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 
 > 打开`客户端/data/.../recipes/`目录写入材料配方文件
 
-详情查看 [配方(Recipes).md](./配方(Recipes).md/#指引)
+详情查看 [配方(Recipes).md](<./配方(Recipes).md/#指引>)
 
 # 创建材料语言文件
 
@@ -148,64 +148,61 @@ Ciallo ～(∠·ω< )⌒☆ 这里是**小狼娘 fufu**~，你也可以叫我**f
 
 ```json
 {
-    "material.tconstruct.clay": "粘土",
-    "material.tconstruct.clay.flavor": "在水中更有力",
-    "material.tconstruct.clay.encyclopedia": "下雨时+4挖掘速度, 在水中+8挖掘速度"
+  "material.tconstruct.clay": "粘土",
+  "material.tconstruct.clay.flavor": "在水中更有力",
+  "material.tconstruct.clay.encyclopedia": "下雨时+4挖掘速度, 在水中+8挖掘速度"
 }
 ```
 
 # 创建材料材质
 
-> 打开`客户端/assets/.../materials/ID.json`参考[材质(assets).md](/Custom/Materials/材质(assets).md)，创建一个材料材质文件
+> 打开`客户端/assets/.../materials/ID.json`参考[材质(assets).md](</Custom/Materials/材质(assets).md>)，创建一个材料材质文件
 
 [示例 >>>](../Packs/assets/tconstruct/tinkering/materials/clay.json)
 
 ```json
 {
-    "color": "FFA1A7B1",
-    "generator": {
-      "ignoreMaterialStats": false,
-      "supportedStats": [
-        "tconstruct:binding",
-        "tconstruct:shield_core"
-      ],
-      "transformer": {
-        "type": "tconstruct:recolor_sprite",
-        "color_mapping": {
-          "type": "tconstruct:grey_to_color",
-          "palette": [
-            {
-              "color": "FF000000",
-              "grey": 0
-            },
-            {
-              "color": "FF55627F",
-              "grey": 63
-            },
-            {
-              "color": "FF5E6C8D",
-              "grey": 102
-            },
-            {
-              "color": "FF757D90",
-              "grey": 140
-            },
-            {
-              "color": "FF9499A4",
-              "grey": 178
-            },
-            {
-              "color": "FFA1A7B1",
-              "grey": 216
-            },
-            {
-              "color": "FFAFB9D6",
-              "grey": 255
-            }
-          ]
-        }
+  "color": "FFA1A7B1",
+  "generator": {
+    "ignoreMaterialStats": false,
+    "supportedStats": ["tconstruct:binding", "tconstruct:shield_core"],
+    "transformer": {
+      "type": "tconstruct:recolor_sprite",
+      "color_mapping": {
+        "type": "tconstruct:grey_to_color",
+        "palette": [
+          {
+            "color": "FF000000",
+            "grey": 0
+          },
+          {
+            "color": "FF55627F",
+            "grey": 63
+          },
+          {
+            "color": "FF5E6C8D",
+            "grey": 102
+          },
+          {
+            "color": "FF757D90",
+            "grey": 140
+          },
+          {
+            "color": "FF9499A4",
+            "grey": 178
+          },
+          {
+            "color": "FFA1A7B1",
+            "grey": 216
+          },
+          {
+            "color": "FFAFB9D6",
+            "grey": 255
+          }
+        ]
       }
-    },
-    "luminosity": 0
-  }
+    }
+  },
+  "luminosity": 0
+}
 ```
