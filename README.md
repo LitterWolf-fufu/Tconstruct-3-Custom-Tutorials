@@ -2,7 +2,7 @@
 
 ## 起源
 
-> 本篇教程于 2024-5-29 开始编写, 也是我编写的第一篇教程
+> 本篇教程于 2024-5-29 开始编写, 也是我编写的第一篇教程 ~~同时是我第一次使用Github和第一次写Markdonw~~
 >
 > 感谢[Qi-Month](https://github.com/Qi-Month)给我的建议和参考, 此页面也是参考她的 [PonderJs-Tutoials](https://github.com/Qi-Month/PonderJs-Tutorials/blob/main/README.md) 写的
 
@@ -20,6 +20,7 @@
 
 ## 所需要的工具
 
+- 好一点的梯子，看不到配图的话文字量太大了可能看不懂欸~
 - 一个代码编辑器，VScode 或者记事本之类的都可以
 - 那么 **一丢丢 🌌🤏** 的 JSON 基础
 - [JSON 语法](https://www.runoob.com/json/json-syntax.html)
