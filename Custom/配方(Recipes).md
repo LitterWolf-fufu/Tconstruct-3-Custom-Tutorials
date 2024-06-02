@@ -1,8 +1,28 @@
-# 前言
+# 指引
+
+1. **如果需要材料的部件在部件制造台上合成和工匠站/砧上修复（如下图1和图2），请先确保该材料定义的`craftable`为`true`，跳转至[材料配方](#material)**
+
+> 当`craftable`为`false`时，该材料仅可勇于修复（如图2）
+
+图一
+
+![](../assets/images/recipe-material-0.png)
+
+图二
+
+![](../assets/images/recipe-material-1.png)
+
+2. **如果需要材料的部件使用浇筑合成（如下图），跳转至[材料浇筑配方](#material-fluid)**
+
+![](../assets/images/recipe-material-fluid.png)
+
+3. **如果要使材料的部件在炉中融化成液体（如下图），跳转至[材料融化配方](#material-melting)**
+
+![](../assets/images/recipe-material-melting.png)
 
 ---
 
-# <span id=material>工具材料配方(material)-[官方](https://github.com/SlimeKnights/TinkersConstruct/wiki/Material-Recipe-JSON)</span>
+# <span id=material>材料配方(material)</span>
 
 此配方定义一个材料与物品的关联。使物品可用于[**部件制造**](../Gammers.md/#部件制造)和[**工具修复**](../Gammers.md/#工具修复)
 
@@ -54,9 +74,9 @@
 
 ---
 
-# <span id=material-fluid>工具材料浇筑配方(material_fluid)</span>
+# <span id=material-fluid>材料浇筑配方(material_fluid)</span>
 
-定义一个或两个工具材料与液体的关联。使液体可用于**部件浇筑**
+定义一个或两个材料与液体的关联。使液体可用于**部件浇筑**
 
 ## 键名
 
@@ -82,9 +102,9 @@
 }
 ```
 
-# <span id=material-melting>工具材料冶炼配方(material_melting)</span>
+# <span id=material-melting>材料冶炼配方(material_melting)</span>
 
-定义一个工具材料与液体的关联。使工具材料的部件可用于**部件冶炼**
+定义一个材料与液体的关联。使材料的部件可用于**部件冶炼**
 
 ## 键名
 

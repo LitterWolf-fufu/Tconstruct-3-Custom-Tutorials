@@ -1,109 +1,109 @@
-# stats-材料部件
+# 材料部件（stats）
 
 > 材料部件定义**文件位置`data/ModID/tinkering/materials/stats/ID.json`**
 
 ## 键名
 
-`stats` (object): 下文所有键与键值对都在其中。若某个部件对象不在其中，则代表该材料的不存在这个部件
+`stats` (对象): 下文所有键与键值对都在其中。若某个部件对象不在其中，则代表该材料的不存在这个部件
 
-> - `tconstruct:head` (object): **头部**部件(Head)，包括镐头、锤头、小型斧刃、板斧刃、小型剑刃、宽刃、园板、大板:
+> - `tconstruct:head` (对象): **头部**部件(Head)，包括镐头、锤头、小型斧刃、板斧刃、小型剑刃、宽刃、园板、大板:
 > 
 > > <details><img src="./images/head.png"></details>
 > >
-> > - `durability` (integer): 耐久度
-> > - `mining_tier` (string): 挖掘等级 - [一些补充](#一些补充)
-> > - `mining_speed` (number): 挖掘速度
-> > - `melee_attack` (number): 近战伤害
+> > - `durability` (整数): 耐久度
+> > - `mining_tier` (字符串): 挖掘等级 - [一些补充](#一些补充)
+> > - `mining_speed` (数字): 挖掘速度
+> > - `melee_attack` (数字): 近战伤害
 > 
-> - `tconstruct:handle` (object): **手柄**部件(Handle)，包括手柄、坚韧手柄:
+> - `tconstruct:handle` (对象): **手柄**部件(Handle)，包括手柄、坚韧手柄:
 >
 > > <details><img src="./images/handle.png"></details>
 > >
-> > - `durability` (number): 耐久度乘数
-> > - `melee_damage` (number): 近战伤害乘数
-> > - `melee_speed` (number): 近战速度乘数
-> > - `mining_speed` (number): 挖掘速度乘数
+> > - `durability` (数字): 耐久度乘数
+> > - `melee_damage` (数字): 近战伤害乘数
+> > - `melee_speed` (数字): 近战速度乘数
+> > - `mining_speed` (数字): 挖掘速度乘数
 > 
-> - `tconstruct:binding` (object): **绑定结**部件(Binding) _在1.18.2以下的版本中名为`tconstruct:extra`_:
+> - `tconstruct:binding` (对象): **绑定结**部件(Binding) _在1.18.2以下的版本中名为`tconstruct:extra`_:
 > 
 > > <details><img src="./images/binding.png"></details>
 > >
 > > 此部件对象为空集
 > 
-> - `tconstruct:limb` (object): **弓臂**部件(Limb)
+> - `tconstruct:limb` (对象): **弓臂**部件(Limb)
 > 
 > > <details><img src="./images/limb.png"></details>
 > >
-> > - `durability` (integer): 耐久度
-> > - `draw_speed` (number): 拉弓速度
-> > - `velocity` (number): 初速度 - 箭矢速度越高, 造成的伤害越高
-> > - `accuracy` (number): 精确度 - 弓瞄准点距准心的距离
+> > - `durability` (整数): 耐久度
+> > - `draw_speed` (数字): 拉弓速度
+> > - `velocity` (数字): 初速度 - 箭矢速度越高, 造成的伤害越高
+> > - `accuracy` (数字): 精确度 - 弓瞄准点距准心的距离
 >
-> - `tconstruct:grip` (object): **弓把**部件
+> - `tconstruct:grip` (对象): **弓把**部件
 > 
 > > <details><img src="./images/grip.png"></details>
 > >
-> > - `durability` (number) 耐久度乘数
-> > - `accuracy` (number): 精确度 - 弓瞄准点距准心的距离
-> > - `melee_damage` (number): 近战伤害
+> > - `durability` (数字) 耐久度乘数
+> > - `accuracy` (数字): 精确度 - 弓瞄准点距准心的距离
+> > - `melee_damage` (数字): 近战伤害
 > 
-> - `tconstruct:bowstring` (object): 弓弦部件
+> - `tconstruct:bowstring` (对象): 弓弦部件
 > 
 > > <details><img src="./images/bowstring.png"></details>
 > >
 > > 此部件对象为空集
 >
-> - `tconstruct:plating_helmet` (object) **头盔镶板**部件(plating_helmet) _(1.19.2+)_
+> - `tconstruct:plating_helmet` (对象) **头盔镶板**部件(plating_helmet) _(1.19.2+)_
 > 
 > > <details><img src="./images/plating.png"></details>
 > >
-> > - `durability` (integer): 耐久值
-> > - `armor` (number): 护甲值 - 默认为 0
-> > - `toughness` (number): 盔甲韧性 - 默认为 0
-> > - `knockback_resistance` (number): 击退抗性 - 默认为 0
+> > - `durability` (整数): 耐久值
+> > - `armor` (数字): 护甲值 - 默认为 0
+> > - `toughness` (数字): 盔甲韧性 - 默认为 0
+> > - `knockback_resistance` (数字): 击退抗性 - 默认为 0
 > 
-> - `tconstruct:plating_chestplate` (object) **胸甲镶板**部件(plating_chestplate) _(1.19.2+)_
-> 
-> > <details><img src="./images/plating.png"></details>
-> >
-> > - `durability` (integer): 耐久值
-> > - `armor` (number): 护甲值 - 默认为 0
-> > - `toughness` (number): 盔甲韧性 - 默认为 0
-> > - `knockback_resistance` (number): 击退抗性 - 默认为 0
-> 
-> - `tconstruct:plating_leggings` (object) **护腿镶板**部件(plating_leggings) _(1.19.2+)_
+> - `tconstruct:plating_chestplate` (对象) **胸甲镶板**部件(plating_chestplate) _(1.19.2+)_
 > 
 > > <details><img src="./images/plating.png"></details>
 > >
-> > - `durability` (integer): 耐久值
-> > - `armor` (number): 护甲值 - 默认为 0
-> > - `toughness` (number): 盔甲韧性 - 默认为 0
-> > - `knockback_resistance` (number): 击退抗性 - 默认为 0
+> > - `durability` (整数): 耐久值
+> > - `armor` (数字): 护甲值 - 默认为 0
+> > - `toughness` (数字): 盔甲韧性 - 默认为 0
+> > - `knockback_resistance` (数字): 击退抗性 - 默认为 0
 > 
-> - `tconstruct:plating_boots` (object) **靴子镶板**部件(plating_boots) _(1.19.2+)_
-> 
-> > <details><img src="./images/plating.png"></details>
-> >
-> > - `durability` (integer): 耐久值
-> > - `armor` (number): 护甲值 - 默认为 0
-> > - `toughness` (number): 盔甲韧性 - 默认为 0
-> > - `knockback_resistance` (number): 击退抗性 - 默认为 0
-> 
-> - `tconstruct:plating_shield` (object) **盾牌镶板**部件(plating_shield) _(1.19.2+)_
+> - `tconstruct:plating_leggings` (对象) **护腿镶板**部件(plating_leggings) _(1.19.2+)_
 > 
 > > <details><img src="./images/plating.png"></details>
 > >
-> > - `durability` (integer): 耐久值
-> > - `toughness` (number): 盔甲韧性 - 默认为 0
-> > - `knockback_resistance` (number): 击退抗性 - 默认为 0
+> > - `durability` (整数): 耐久值
+> > - `armor` (数字): 护甲值 - 默认为 0
+> > - `toughness` (数字): 盔甲韧性 - 默认为 0
+> > - `knockback_resistance` (数字): 击退抗性 - 默认为 0
 > 
-> - `tconstruct:maille` (object): **夹板**部件(maille) _(1.19.2+)_
+> - `tconstruct:plating_boots` (对象) **靴子镶板**部件(plating_boots) _(1.19.2+)_
+> 
+> > <details><img src="./images/plating.png"></details>
+> >
+> > - `durability` (整数): 耐久值
+> > - `armor` (数字): 护甲值 - 默认为 0
+> > - `toughness` (数字): 盔甲韧性 - 默认为 0
+> > - `knockback_resistance` (数字): 击退抗性 - 默认为 0
+> 
+> - `tconstruct:plating_shield` (对象) **盾牌镶板**部件(plating_shield) _(1.19.2+)_
+> 
+> > <details><img src="./images/plating.png"></details>
+> >
+> > - `durability` (整数): 耐久值
+> > - `toughness` (数字): 盔甲韧性 - 默认为 0
+> > - `knockback_resistance` (数字): 击退抗性 - 默认为 0
+> 
+> - `tconstruct:maille` (对象): **夹板**部件(maille) _(1.19.2+)_
 > 
 > > <details><img src="./images/maille.png"></details>
 > >
 > > 此部件对象为空集
 > 
-> - `tconstruct:shield_core` (object) **盾牌基底**部件(shield_core)
+> - `tconstruct:shield_core` (对象) **盾牌基底**部件(shield_core)
 > 
 > > <details><img src="./images/shield_core.png"></details>
 > >

@@ -1,13 +1,13 @@
-# definition-材料定义
+# 材料定义（definition）
 
 > 材料定义定义**文件路径`data/ModID/tinkering/materials/definition/ID.json`**
 
 ## 键名
 
-- `craftable` (boolean): 材料是否可以在[部件制作台](https://www.mcmod.cn/item/636855.html)上制作部件
-- `tier` (integer): 该材料的等级，一般为 1~4
-- `sortOrder` (integer): 该材料在同等级匠魂宝典目录中的位置
-- `hidden` (boolean): 材料是否在匠魂宝典中被隐藏
+- `craftable` (布尔值): 材料是否可以在[部件制作台](https://www.mcmod.cn/item/636855.html)上制作部件
+- `tier` (整数): 该材料的等级，一般为 1~4
+- `sortOrder` (整数): 该材料在同等级匠魂宝典目录中的位置
+- `hidden` (布尔值): 材料是否在匠魂宝典中被隐藏
 
 ## 示例
 
