@@ -2,7 +2,7 @@
 
 ## 起源
 
-> 本篇教程于 2024-5-29 开始编写, 也是我编写的第一篇教程 ~~同时是我第一次使用Github和第一次写Markdonw~~
+> 本篇教程于 2024-5-29 开始编写, 也是我编写的第一篇教程 ~~同时是我第一次使用 Github 和第一次写 Markdonw~~
 >
 > 感谢[Qi-Month](https://github.com/Qi-Month)给我的建议和参考, 此页面也是参考她的 [PonderJs-Tutoials](https://github.com/Qi-Month/PonderJs-Tutorials/blob/main/README.md) 写的
 
@@ -29,6 +29,6 @@
 
 - > 一些数据包的 JSON 语法 [Gammers](/Gammers.md) (完善中...)
 
-- > 注册自定义材料 [Custom Material](/Custom/材料(Materials).md) (支持 1.19.2 匠魂)
+- > 注册自定义材料 [Custom Material](</Custom/材料(Materials).md>) (支持 1.19.2 匠魂)
 
-- > 注册自定义匠魂配方 [Custom Recipes](/Custom/配方(Recipes).md) (完善中...)
+- > 注册自定义匠魂配方 [Custom Recipes](</Custom/配方(Recipes).md>) (完善中...)
